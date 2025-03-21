@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="High fidelity 3D Korean Body Scan Dataset (limited access).">
+  <meta name="keywords" content="Body scan, Human data">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>PolygomHuman: High fidelity 3D Korean Body Scan Dataset</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">PolygomHuman : High fidelity 3D Korean Body Scan dataset</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://jseobyun.github.io/">Jongseob Yun</a><sup>1, 3</sup>,</span>
+            <span class="author-block">
+              <a href="https://scholar.google.co.kr/citations?hl=ko&user=Y4mReV4AAAAJ">Ju Hong Yoon</a><sup>1, 2</sup>,</span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?hl=ko&user=VUj1ZWoAAAAJ">Min-Gyu Park</a><sup>1, 2</sup>,</span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?hl=ko&user=37rgddAAAAAJ">Yong-Hoon Kwon</a><sup>1, 2</sup>,</span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <a href="https://www.polygom.studio/">
+              <span class="author-block"><sup>1</sup>Polygom,</span>
+            </a>
+            <span class="author-block"><sup>2</sup>Korea Electronics Technology Institute (KETI)</span>
+            <span class="author-block"><sup>3</sup>Korea Advanced Institute of Science and Technology (KAIST)</span>
+
+
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/jseobyun/PolygomHuman"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              <!-- Dataset Link. -->
+<!--              <span class="link-block">-->
+<!--                <a href="https://github.com/jseobyun/PolygomHuman"-->
+<!--                   class="external-link button is-normal is-rounded is-dark">-->
+<!--                  <span class="icon">-->
+<!--                      <i class="far fa-images"></i>-->
+<!--                  </span>-->
+<!--                  <span>Data</span>-->
+<!--                  </a>-->
+<!--              </span>-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero">
+  <div class="container is-max-desktop">
+    <div>
+      <img src="./static/images/polygom_thumbnail.jpg" width="100%"/>
+      <h2 class="subtitle has-text-centered">
+        Total 7791 (including 971 children) body scan meshes from 130 DSLR capture system.
+      </h2>
+      <h2 class="subtitle has-text-centered">
+        Each 100-150MB mesh consists of 450k-500k vertices, 800k-1000k faces and 8k uv texture map.
+      </h2>
+      <h2 class="subtitle has-text-centered"> </h2>
+    </div>
+  </div>
+</section>
+<br/>
+<br/>
+
+<section class="hero">
+  <div class="container is-max-desktop">
+    <div>
+      <img src="./static/images/capture_system.png" width="100%"/>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            We, Polygom construct the first largest dataset of Korean body scan reconstructed by Multiview-Stereo with 130 DSLR system. The dataset contains high fidelity body meshes and corresponding 130 camera poses from SfM.
+            As preventing undesired issues (e.g. privacy), the dataset is not freely available. we are plan to provide it only after contact. If you are interested in our data, please can contact via E-mail belows.
+          </p>
+          <p>
+            Each mesh consists of 450k-500k vertices, 800k-1000k faces and 8192x8192 uv texture map. Unfortunately, subject IDs and pose IDs were not structured at data capture stage so exact statistics about data composition are not provided.
+            Roughly 20-30 pre-selected poses are included.
+          </p>
+          <p>
+            Optionally for enhancing researches, we can provide SMPLX and FLAME template meshes fitted on our meshes.
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+
+      <div class="column is-centered has-text-centered">
+        <h2 class="title is-3">Detail View</h2>
+        <div class="content has-text-justified">
+          <h3 class="title is-4">Aligned Rendering</h3>
+          <img src="./static/images/example1.png" width="100%"/>
+          <img src="./static/images/example2.png" width="100%"/>
+          <img src="./static/images/example3.png" width="100%"/>
+        </div>
+      </div>
+    <br/>
+        <br/>
+     <!-- Interpolating. -->
+    <h3 class="title is-4">360 Rendering</h3>
+    <div class="columns is-vcentered interpolation-panel">
+
+      <div class="column interpolation-video-column">
+        <div id="interpolation-image-wrapper">
+          Loading...
+        </div>
+        <input class="slider is-fullwidth is-large is-info"
+               id="interpolation-slider"
+               step="1" min="0" max="71" value="0" type="range">
+      </div>
+    </div>
+    <br/>
+    <!--/ Interpolating. -->
+    </div>
+</section>
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column">
+        <h2 class="title is-3">OverView</h2>
+        <div class="content has-text-justified">
+          <video id="teaser" autoplay muted loop playsinline height="100%">
+        <source src="./static/videos/tiled.mp4"
+                type="video/mp4">
+      </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Contact</h2>
+        <div class="content has-text-justified">
+          <p>
+            We are pleased to meet you! All discussions about data access and sharing are welcome. Feel free to contact by E-mail (jseob.y@polygom.xyz, mpark@polygom.xyz).
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  </div>
+</section>
+
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is managed by  <a href="https://www.polygom.studio/">Polygom</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>
